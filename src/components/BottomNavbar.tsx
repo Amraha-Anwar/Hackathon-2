@@ -39,7 +39,8 @@ export default function BottomNavbar() {
           {/* contact */}
           <div className="my-6">
             <p className="text-gray-500">
-              Contact: <span className="text-black">{`(808) 555-0111`}</span>
+              <Link href={"/contact"}>
+              Contact:</Link> <span className="text-black">{`(808) 555-0111`}</span>
             </p>
           </div>
         </div>

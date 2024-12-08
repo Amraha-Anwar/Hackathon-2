@@ -25,7 +25,7 @@ export default function MiddleNavbar(){
                 </div>
                 {/* cart button */}
                 <div className=" bg-white px-3 py-3 rounded-md">
-                <Link href={"/cart"}>
+                <Link href={"/addtocart"}>
                 <button className="flex gap-3"><BaggageClaim/> Cart
                 <p className="bg-customTeal px-3 py-1 rounded-full">2</p>
                     </button></Link>
