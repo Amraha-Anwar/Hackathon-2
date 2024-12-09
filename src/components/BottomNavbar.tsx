@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function BottomNavbar() {
   return (
     <>
-      <nav className="hidden lg:block max-w-screen-2xl mx-auto w-full h-20 border bordor-b">
+      <nav className=" max-w-screen-2xl mx-auto w-full h-14 lg:h-20 border bordor-b">
         {/* main div */}
-        <div className="flex justify-between px-28">
+        <div className="flex lg:justify-between lg:px-28 justify-center">
           {/* links */}
           <div>
-            <ul className="flex my-6 gap-7 text-gray-600">
+            <ul className="flex my-4 lg:my-6 lg:gap-7 text-sm gap-3 text-gray-600">
               <li>
                 <Link className="hover:text-customTeal" href={"/"}>
                   Home
@@ -34,10 +34,11 @@ export default function BottomNavbar() {
                   About
                 </Link>
               </li>
+              <li><Link className="hover:text-customTeal" href={"/contact"}>Contact</Link></li>
             </ul>
           </div>
           {/* contact */}
-          <div className="my-6">
+          <div className="hidden lg:block my-6">
             <p className="text-gray-500">
               <Link href={"/contact"}>
               Contact:</Link> <span className="text-black">{`(808) 555-0111`}</span>
