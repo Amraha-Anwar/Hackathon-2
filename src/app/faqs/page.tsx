@@ -50,7 +50,7 @@ export default function Faqs() {
               </p>
             </div>
             {/* 3 */}
-            <div className="container w-[90%] md:w-[100%] bg-customGray px-5 py-5 my-10 lg:mt-2 rounded-md">
+            <div className="container bg-customGray px-5 py-5 my-10 rounded-md">
               <div className="flex justify-between">
                 <h1 className="font-semibold text-xl lg:text-2xl lg:font-bold">
                   Do your Chairs come with a warranty?
@@ -67,7 +67,7 @@ export default function Faqs() {
                 mollitia provident? Fuga rem ratione nobis.
               </p>
             </div>
-            <div className="container w-[90%] md:w-[100%] bg-customGray px-5 py-5  my-10 lg:mt-2 rounded-md">
+            <div className="container bg-customGray px-5 py-5  my-10 rounded-md">
               <div className="flex justify-between">
                 <h1 className="font-semibold text-xl lg:text-2xl lg:font-bold">
                   What will be delivered? And when?
@@ -84,7 +84,7 @@ export default function Faqs() {
                 mollitia provident? Fuga rem ratione nobis.
               </p>
             </div>
-            <div className="container w-[90%] md:w-[100%] bg-customGray px-5 py-5  my-10 lg:mt-2 rounded-md">
+            <div className="container bg-customGray px-5 py-5  my-10 rounded-md">
               <div className="flex justify-between">
                 <h1 className="font-semibold text-xl lg:text-2xl lg:font-bold">
                   Can I try a chair before purchasing?
@@ -101,7 +101,7 @@ export default function Faqs() {
                 mollitia provident? Fuga rem ratione nobis.
               </p>
             </div>
-            <div className="container w-[90%] md:w-[100%] bg-customGray px-5 py-5 my-10 lg:mt-2 rounded-md">
+            <div className="container bg-customGray px-5 py-5 my-10 rounded-md">
               <div className="flex justify-between">
                 <h1 className="font-semibold text-xl lg:text-2xl lg:font-bold">
                   How do I clean and maintain my comforty chair?

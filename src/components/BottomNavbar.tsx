@@ -15,17 +15,17 @@ export default function BottomNavbar() {
                 </Link>
               </li>
               <li>
-                <Link className="hover:text-customTeal" href={"/shop"}>
+                <Link className="hover:text-customTeal" href={"/shopPage"}>
                   Shop
                 </Link>
               </li>
               <li>
-                <Link className="hover:text-customTeal" href={"/product"}>
+                <Link className="hover:text-customTeal" href={"/products"}>
                   Product
                 </Link>
               </li>
               <li>
-                <Link className="hover:text-customTeal" href={"/page"}>
+                <Link className="hover:text-customTeal" href={"/productpage"}>
                   Pages
                 </Link>
               </li>
@@ -34,7 +34,7 @@ export default function BottomNavbar() {
                   About
                 </Link>
               </li>
-              <li><Link className="hover:text-customTeal" href={"/contact"}>Contact</Link></li>
+              <li className="block lg:hidden"><Link className="hover:text-customTeal" href={"/contact"}>Contact</Link></li>
             </ul>
           </div>
           {/* contact */}

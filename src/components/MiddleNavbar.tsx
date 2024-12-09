@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { BaggageClaim } from "lucide-react";
+import { BsCartDash } from "react-icons/bs";
 
 export default function MiddleNavbar(){
     return(
@@ -17,8 +17,8 @@ export default function MiddleNavbar(){
                 {/* cart button */}
                 <div className="bg-white lg:px-3 lg:py-3 px-1 py-1">
                 <Link href={"/addtocart"}>
-                <button className="flex gap-3"><BaggageClaim/> Cart
-                <p className="bg-customTeal px-3 py-1 rounded-full">2</p>
+                <button className="flex gap-3 rounded-[10px]"><BsCartDash className="w-5 h-6"/>Cart
+                <p className="bg-customDarkBlue px-3 py-1 text-white rounded-full">2</p>
                     </button></Link>
                 </div>
                 </div>

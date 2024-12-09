@@ -9,6 +9,7 @@ module.exports = {
   theme: {
   	extend: {
   		colors: {
+			customDarkBlue: 'rgba(0, 117, 128, 10)',  
   			customBlue: 'rgba(39, 35, 67, 1)',
   			customGray: 'rgba(240, 242, 243, 1)',
   			customTeal: 'rgba(2, 159, 174, 1)',
