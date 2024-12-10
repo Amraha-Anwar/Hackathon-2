@@ -16,7 +16,7 @@ export default function MiddleNavbar(){
                 </div>
                 {/* cart button */}
                 <div className="bg-white lg:px-3 lg:py-3 px-1 py-1">
-                <Link href={"/addtocart"}>
+                <Link href={"/cartpage"}>
                 <button className="flex gap-3 rounded-[10px]"><BsCartDash className="w-5 h-6"/>Cart
                 <p className="bg-customDarkBlue px-3 py-1 text-white rounded-full">2</p>
                     </button></Link>
