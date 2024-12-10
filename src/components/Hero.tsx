@@ -12,7 +12,7 @@ export default function Hero(){
                 <div className="w-[50%] lg:px-14 pl-5">
                    <h2 className="text-sm lg:-mt-20 mb-5 font-light ">WELCOME TO CHAIRY</h2>
                    <h1 className="lg:text-5xl text-xl sm:text-2xl md:text-4xl font-bold text-customBlue leading-tight">Best Furniture Collection For Your Interior.</h1>
-                   <Link href={"/shop"}><button className="flex text-sm lg:text-lg lg:mt-14 lg:gap-5 gap-2 p-1 mt-6 lg:px-4 lg:py-3 justify-center text-white bg-customTeal rounded-md">Shop Now <MoveRight /></button></Link>
+                   <Link href={"/shopPage"}><button className="flex text-sm lg:text-lg lg:mt-14 lg:gap-5 gap-2 p-1 mt-6 lg:px-4 lg:py-3 justify-center text-white bg-customTeal rounded-md">Shop Now <MoveRight /></button></Link>
                   
                 </div>
                 {/* right div */}

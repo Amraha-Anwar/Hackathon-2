@@ -83,7 +83,7 @@ export default function Contact() {
                   type="text"
                   className="mt-1 block w-full px-6 py-4 border border-gray-300 rounded-[10px] shadow-sm sm:text-sm"
                   placeholder="This is an optional"
-                  required
+            
                 />
               </div>
 
