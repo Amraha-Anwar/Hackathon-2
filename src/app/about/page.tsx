@@ -12,8 +12,8 @@ export default function About() {
         {/* main div which will flex 2 header divs */}
         <div className="flex justify-between gap-5 pt-20">
           <div className="lg:w-[50%]">
-            <div className="bg-customDarkBlue text-white px-6 lg:px-0 sm:text-center lg:text-left md:px-20 lg:pl-14 lg:pr-8 pt-16">
-              <h1 className="font-bold text-2xl pb-5">About Us - Comforty</h1>
+            <div className="bg-customDarkBlue text-white h-[100%] px-6 lg:px-0 sm:text-center lg:text-left md:px-20 lg:pl-14 lg:pr-8 pt-16">
+              <h1 className="font-bold text-3xl pb-10">About Us - Comforty</h1>
               <p className="leading-snug pb-32">
                 At Comforty, we believe that the right chair can transform your
                 space and elevate your comfort.Specializing in ergonomic
@@ -29,7 +29,7 @@ export default function About() {
           </div>
           <div className="hidden lg:block lg:w-[50%]">
             <Image
-              className="w-full h-full xl:h-[84%]"
+              className="w-full h-full"
               src={"/images/HomePage/featured1.png"}
               alt="header pic"
               width={600}
